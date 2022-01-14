@@ -13,7 +13,7 @@
   pre_tasks:
     - name: Set vars for Cent OS backward compatibility
       set_fact:
-        pip_package: python-pip
+        pip_package: python3-pip
         pip_install_packages:
           - name: cryptography
             version: "3.3"

@@ -15,7 +15,7 @@
     - name: Set vars for Cent OS backward compatibility
       set_fact:
         docker_package: "docker-ce-19.03.5-3.el7"
-        pip_package: python-pip
+        pip_package: python3-pip
         pip_install_packages:
           - name: websocket-client
             version: "0.59.0"
